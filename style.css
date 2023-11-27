@@ -462,6 +462,12 @@ section.portfolio .flex {
   gap: 2em;
 }
  
+/* Form */
+
+form{
+   max-width: 360px;
+    margin: 0 auto;
+}
 
 /* Footer */
 
