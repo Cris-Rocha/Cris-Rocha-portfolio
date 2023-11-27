@@ -404,6 +404,8 @@ footer .line-footer p a {
 
   section.top-website {
     padding: 2em 8%;
+     max-width: 460px;
+    margin: 0 auto;
   }
 
   .top-website .flex {
