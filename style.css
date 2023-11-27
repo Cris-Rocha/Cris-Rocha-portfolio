@@ -25,6 +25,7 @@ h2.title {
   color: #6e14a6;
   font-size: 2.1em;
   text-align: center;
+  padding: 1em;
 }
 
 h2.title span {
@@ -151,7 +152,7 @@ section.top-website .flex {
 /* specialities */
 
 section.specialities {
-  padding: 2em 3%;
+  padding: 5em 4%;
 }
 section.specialities .flex {
   gap: 5rem;
@@ -191,7 +192,7 @@ section.specialities .flex {
 /* About */
 
 section.about {
-  padding: 2em 4%;
+  padding: 8em 4%;
   width: 100%;
 }
 
@@ -241,7 +242,8 @@ section.about img {
 /* Portfolio */
 
 section.portfolio {
-  padding: 80px 4%;
+  padding: 90px 4%;
+
   box-shadow: 0 0 40px 08px #a56cc154;
 }
 
@@ -403,7 +405,7 @@ footer .line-footer p a {
 
   section.top-website {
     padding: 2em 8%;
-     max-width: 360px;
+    max-width: 360px;
     margin: 0 auto;
   }
 
@@ -418,7 +420,7 @@ footer .line-footer p a {
   #profile-photo {
     width: 90%;
     height: auto;
-     max-width: 360px;
+    max-width: 360px;
     margin: 0 auto;
   }
   /* specialities */
@@ -441,7 +443,7 @@ footer .line-footer p a {
 
   section.about {
     padding: 2em 8%;
-     max-width: 460px;
+    max-width: 460px;
     margin: 0 auto;
   }
 
@@ -452,7 +454,7 @@ footer .line-footer p a {
 /* Portfolio */
 
 section.portfolio {
-  padding: 2em 8%;
+  padding: 5em 8%;
 }
 .img-port {
   width: 100%; /*adjusting background image overlay*/
@@ -464,12 +466,12 @@ section.portfolio {
 section.portfolio .flex {
   gap: 2em;
 }
- 
+
 /* Form */
 
-form{
-   max-width: 360px;
-    margin: 0 auto;
+form {
+  max-width: 360px;
+  margin: 0 auto;
 }
 
 /* Footer */
