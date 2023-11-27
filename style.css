@@ -173,7 +173,6 @@ section.specialities .flex {
 }
 .specialities .specialities-box h3 {
   color: rgb(110, 20, 166);
-  font-size: 2em;
   text-align: center;
   padding: 15px;
 }
@@ -404,7 +403,7 @@ footer .line-footer p a {
 
   section.top-website {
     padding: 2em 8%;
-     max-width: 460px;
+     max-width: 360px;
     margin: 0 auto;
   }
 
