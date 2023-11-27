@@ -458,3 +458,16 @@ section.portfolio {
  section.portfolio .flex {
    gap:2em;
   } 
+
+  /* Footer */
+
+  .line-footer,
+  p#cris-email{
+    text-align: center;
+    justify-content: center;
+    margin-top: 0;
+    gap:1em;
+  }
+ 
+
+
