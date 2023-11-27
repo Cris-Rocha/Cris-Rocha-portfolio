@@ -425,12 +425,14 @@ footer .line-footer p a {
     padding: 2em 8%;
   }
   section.specialities .flex {
-    gap: 0;
+    gap: 2em;
   }
 
   .specialities .specialities-box {
-    padding: 2em;
-    margin-top: 2rem;
+    padding: 3em;
+    /* margin-top: 2rem; */
+    max-width: 360px;
+  margin: 0 auto;
   }
 
   /* About */
