@@ -247,7 +247,6 @@ section.portfolio {
 }
 
 section.portfolio .flex{
-
   justify-content: space-around;
   margin-top: 6em;
 }
@@ -446,9 +445,16 @@ footer .line-footer p a {
 }
 /* Portfolio */
 
- .portfolio.interface {
-  /* display: flex;
-  align-items: center;
-  margin: auto;
-  justify-content: space-between; */
+section.portfolio {
+  padding: 2em 8%;
 }
+.img-port{
+  width: 100%; /*adjusting background image overlay*/
+  max-width: 360px;
+  margin: 0 auto;
+  box-shadow: 0 0 40px 08px #a56cc154;
+}
+
+ section.portfolio .flex {
+   gap:2em;
+  } 
