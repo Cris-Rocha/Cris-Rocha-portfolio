@@ -1,0 +1,444 @@
+/**
+ * Add your custom styles below
+ * 
+ * Remember: 
+ * - Be organised, use comments and separate your styles into meaningful chunks
+ *    for example: General styles, Navigation styles, Hero styles, Footer etc.
+ * 
+ */
+
+/*  General Style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(247, 247, 241);
+  height: 100vh;
+}
+
+h2.title {
+  color: #6e14a6;
+  font-size: 2.1em;
+  text-align: center;
+}
+
+h2.title span {
+  color: rgb(157, 0, 255);
+}
+a {
+  text-decoration: none;
+  
+}
+
+nav.menu-desktop ul li a {
+    transition-duration: 8s;
+}
+
+button:hover,
+form .btn-submit input:hover {
+  box-shadow: 0px 0px 8px #a56cc1bf;
+  cursor: pointer;
+  transform: scale(1.12);
+  transition: 0.2s;
+}
+
+/* Parent: */
+.interface {
+  max-width: 80em;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+
+.btn-contact button {
+  padding: 10px 40px;
+  font-size: 1.03em;
+  font-weight: 500;
+  background-color: #a56cc1;
+  color: white;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* Header */
+
+/* Children */
+header {
+  padding: 20px 4%;
+}
+header img {
+  border-radius: 30px;
+}
+header > .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a {
+  color: rgb(110, 20, 166);
+  text-decoration: none;
+  display: inline-block;
+}
+
+header a:hover {
+  color: rgb(157, 0, 255);
+  text-decoration: none;
+  cursor: pointer;
+  transform: scale(1.12);
+  transition: 0.2s;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 0 40px;
+  font-size: 19px;
+}
+
+/* TOP section  */
+section.top-website {
+  padding: 2.5em 4%;
+}
+section.top-website .flex {
+  align-items: center;
+  justify-content: center;
+  gap: 4.5em;
+}
+.top-website h1 {
+  color: #6e14a6;
+  font-size: 3em;
+}
+.top-website h1 span {
+  color: rgb(157, 0, 255);
+  font-size: larger;
+}
+.top-website .txt-top-site p {
+  color: #a56cc1;
+  margin: 40px 0;
+}
+/* Profile picture */
+
+#profile-photo {
+  height: 30em;
+  border-radius: 10px 30%;
+  box-shadow: 0px 0px 20px #a56cc1bf;
+}
+.top-website .img-top-site {
+  position: relative;
+  animation: float 2s ease-in-out infinite alternate;
+}
+
+/* Picture animation */
+
+@keyframes float {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 30px;
+  }
+}
+
+/* specialities */
+
+section.specialities {
+  padding: 2em 3%;
+}
+section.specialities .flex {
+  gap: 5rem;
+}
+.specialities .specialities-box {
+  color: #a56cc1;
+  padding: 3em;
+  border: 1px solid #a56cc1;
+  margin-top: 4rem;
+  border-radius: 40px;
+  text-align: justify;
+  align-items: center;
+}
+.specialities .specialities-box:hover {
+  box-shadow: 0px 0px 15px #a56cc190;
+  cursor: pointer;
+  transform: scale(1.08);
+  transition: 0.2s;
+}
+.specialities .specialities-box h3 {
+  color: rgb(110, 20, 166);
+  font-size: 2em;
+  text-align: center;
+  padding: 15px;
+}
+.specialities .specialities-box i {
+  color: rgb(110, 20, 166);
+  font-size: 4em;
+  padding: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.specialities-box i:hover {
+  color: rgb(157, 0, 255);
+}
+
+/* About */
+
+section.about {
+  padding: 2em 4%;
+  width: 100%;
+}
+
+.about .txt-about {
+  color: #6e14a6;
+}
+section.about .flex {
+  align-items: center;
+  gap: 60px;
+}
+
+.about .txt-about h2 {
+  font-size: 2.2em;
+  line-height: 1.3em;
+  margin-bottom: 0.9em;
+}
+.about .txt-about span {
+  color: rgb(157, 0, 255);
+}
+.about .txt-about p {
+  padding-bottom: 15px;
+  text-align: justify;
+}
+
+/* About photo */
+
+section.about img {
+  width: 300px;
+  border-radius: 30% 10px;
+  box-shadow: 0px 0px 25px #a56cc1bf;
+}
+
+/* Social media button */
+
+.btn-social button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  font-size: 23px;
+  background-color: #a56cc1bf;
+  color: white;
+  margin-right: 0.5em;
+  cursor: pointer;
+}
+
+/* Portfolio */
+
+section.portfolio {
+  padding: 80px 4%;
+  box-shadow: 0 0 40px 08px #a56cc154;
+}
+
+.img-port {
+  width: 360px;
+  height: 460px;
+  background-color: #a56cc1;
+  background-size: cover; /*adapting image*/
+  background-position: 100% 0%;
+  border-radius: 10%;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Rolagem imagem*/
+.img-port:hover {
+  background-position: 100% 100%;
+  transition: 8s;
+  box-shadow: 0px 0px 30px #a56cc1bf;
+}
+/*  overlay */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: #6e14a670;
+  opacity: 0;
+  transition: 0.5s;
+  color: white;
+}
+.overlay:hover {
+  opacity: 1;
+}
+
+section.portfolio .flex {
+  justify-content: space-around;
+  margin: 60px;
+}
+
+/* form */
+
+section.form {
+  padding: 80px 4%;
+}
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+}
+form input,
+form textarea {
+  width: 100%;
+  background-color: #a56cc134;
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 15px;
+  font-size: 18px;
+  color: #6e14a6;
+  font-weight: 300;
+}
+form textarea {
+  resize: none;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: #540c8177;
+  height: 200px;
+}
+
+/* Submit button */
+
+form .btn-submit {
+  margin-top: 15px;
+  text-align: center;
+}
+form .btn-submit input {
+  width: 120px;
+  background-color: #a56cc1;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 2s;
+}
+/* Footer */
+
+footer {
+  padding: 40px 4%;
+  box-shadow: 40px 0 08px #a56cc154;
+}
+
+footer .flex {
+  justify-content: space-between;
+}
+p#cris-email {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+
+footer img {
+  border-radius: 30px;
+  margin-top: 0;
+}
+
+footer .line-footer {
+  padding: 10px 0px;
+}
+.border {
+  border-bottom: 2px solid rgb(157, 0, 255);
+}
+
+footer .line-footer p i {
+  color: #540c81;
+  cursor: pointer;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+footer .line-footer p a {
+  font-size: 20px;
+}
+.copyright p {
+  padding: 20px 4%;
+  text-align: center;
+  font-size: 13px;
+  color: #6c209c;
+}
+
+@media screen and (max-width: 1020px) {
+  /* general */
+
+  .flex {
+    flex-direction: column;
+  }
+  /* Header */
+
+  .menu-desktop,
+  .btn-contact {
+    display: none;
+  }
+
+  /* Top website */
+
+  section.top-website {
+    padding: 2em 8%;
+  }
+
+  .top-website .flex {
+    flex-direction: column-reverse;
+  }
+
+  .top-website h1 {
+    font-size: 2.5em;
+    line-height: 1em;
+  }
+  #profile-photo {
+    width: 90%;
+    height: auto;
+  }
+  /* specialities */
+
+  section.specialities {
+    padding: 2em 8%;
+  }
+  section.specialities .flex {
+    gap: 0;
+  }
+
+  .specialities .specialities-box {
+    padding: 2em;
+    margin-top: 2rem;
+  }
+
+  /* About */
+
+  section.about {
+    padding: 2em 8%;
+  }
+
+  .btn-social {
+    text-align: center;
+  }
+}
